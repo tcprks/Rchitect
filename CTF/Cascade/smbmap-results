@@ -1,0 +1,484 @@
+smbmap -H 10.10.10.182 -u r.thompson -p rY4n5eva -R
+[+] IP: 10.10.10.182:445        Name: cascade.local                                     
+        Disk                                                    Permissions     Comment
+        ----                                                    -----------     -------
+        ADMIN$                                                  NO ACCESS       Remote Admin
+        Audit$                                                  NO ACCESS
+        C$                                                      NO ACCESS       Default share
+        Data                                                    READ ONLY
+        .\Data\*
+        dr--r--r--                0 Tue Jan 28 17:05:51 2020    .
+        dr--r--r--                0 Tue Jan 28 17:05:51 2020    ..
+        dr--r--r--                0 Sun Jan 12 20:45:14 2020    Contractors
+        dr--r--r--                0 Sun Jan 12 20:45:10 2020    Finance
+        dr--r--r--                0 Tue Jan 28 13:04:51 2020    IT
+        dr--r--r--                0 Sun Jan 12 20:45:20 2020    Production
+        dr--r--r--                0 Sun Jan 12 20:45:16 2020    Temps
+        .\Data\IT\*
+        dr--r--r--                0 Tue Jan 28 13:04:51 2020    .
+        dr--r--r--                0 Tue Jan 28 13:04:51 2020    ..
+        dr--r--r--                0 Tue Jan 28 13:00:30 2020    Email Archives
+        dr--r--r--                0 Tue Jan 28 13:04:51 2020    LogonAudit
+        dr--r--r--                0 Tue Jan 28 19:53:04 2020    Logs
+        dr--r--r--                0 Tue Jan 28 17:06:59 2020    Temp
+        .\Data\IT\Email Archives\*
+        dr--r--r--                0 Tue Jan 28 13:00:30 2020    .
+        dr--r--r--                0 Tue Jan 28 13:00:30 2020    ..
+        fr--r--r--             2522 Tue Jan 28 13:00:30 2020    Meeting_Notes_June_2018.html
+        .\Data\IT\Logs\*
+        dr--r--r--                0 Tue Jan 28 19:53:04 2020    .
+        dr--r--r--                0 Tue Jan 28 19:53:04 2020    ..
+        dr--r--r--                0 Tue Jan 28 19:53:04 2020    Ark AD Recycle Bin
+        dr--r--r--                0 Tue Jan 28 19:56:00 2020    DCs
+        .\Data\IT\Logs\Ark AD Recycle Bin\*
+        dr--r--r--                0 Tue Jan 28 19:53:04 2020    .
+        dr--r--r--                0 Tue Jan 28 19:53:04 2020    ..
+        fr--r--r--             1303 Tue Jan 28 20:19:11 2020    ArkAdRecycleBin.log
+        .\Data\IT\Logs\DCs\*
+        dr--r--r--                0 Tue Jan 28 19:56:00 2020    .
+        dr--r--r--                0 Tue Jan 28 19:56:00 2020    ..
+        fr--r--r--             5967 Sun Jan 26 17:22:05 2020    dcdiag.log
+        .\Data\IT\Temp\*
+        dr--r--r--                0 Tue Jan 28 17:06:59 2020    .
+        dr--r--r--                0 Tue Jan 28 17:06:59 2020    ..
+        dr--r--r--                0 Tue Jan 28 17:06:55 2020    r.thompson
+        dr--r--r--                0 Tue Jan 28 15:00:05 2020    s.smith
+        .\Data\IT\Temp\s.smith\*
+        dr--r--r--                0 Tue Jan 28 15:00:05 2020    .
+        dr--r--r--                0 Tue Jan 28 15:00:05 2020    ..
+        fr--r--r--             2680 Tue Jan 28 15:00:01 2020    VNC Install.reg
+        IPC$                                                    NO ACCESS       Remote IPC
+        NETLOGON                                                READ ONLY       Logon server share 
+        .\NETLOGON\*
+        dr--r--r--                0 Wed Jan 15 16:50:33 2020    .
+        dr--r--r--                0 Wed Jan 15 16:50:33 2020    ..
+        fr--r--r--              258 Wed Jan 15 16:50:14 2020    MapAuditDrive.vbs
+        fr--r--r--              255 Wed Jan 15 16:51:03 2020    MapDataDrive.vbs
+        print$                                                  READ ONLY       Printer Drivers
+        .\print$\*
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    .
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    ..
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    color
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    IA64
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    W32X86
+        dr--r--r--                0 Sun Jan 12 22:09:11 2020    x64
+        .\print$\color\*
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    .
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    ..
+        fr--r--r--             1058 Thu Jan  9 10:31:43 2020    D50.camp
+        fr--r--r--             1079 Thu Jan  9 10:31:43 2020    D65.camp
+        fr--r--r--              797 Thu Jan  9 10:31:43 2020    Graphics.gmmp
+        fr--r--r--              838 Thu Jan  9 10:31:43 2020    MediaSim.gmmp
+        fr--r--r--              786 Thu Jan  9 10:31:43 2020    Photo.gmmp
+        fr--r--r--              822 Thu Jan  9 10:31:43 2020    Proofing.gmmp
+        fr--r--r--           218103 Thu Jan  9 10:31:43 2020    RSWOP.icm
+        fr--r--r--             3144 Thu Jan  9 10:31:43 2020    sRGB Color Space Profile.icm
+        fr--r--r--            17155 Thu Jan  9 10:31:43 2020    wscRGB.cdmp
+        fr--r--r--             1578 Thu Jan  9 10:31:43 2020    wsRGB.cdmp
+        .\print$\x64\*
+        dr--r--r--                0 Sun Jan 12 22:09:11 2020    .
+        dr--r--r--                0 Sun Jan 12 22:09:11 2020    ..
+        dr--r--r--                0 Sun Jan 12 22:09:12 2020    3
+        dr--r--r--                0 Sun Jan 12 22:12:37 2020    PCC
+        .\print$\x64\3\*
+        dr--r--r--                0 Sun Jan 12 22:09:12 2020    .
+        dr--r--r--                0 Sun Jan 12 22:09:12 2020    ..
+        fr--r--r--           712192 Thu Jan  9 14:10:09 2020    brci14a.dll
+        fr--r--r--            10706 Thu Jan  9 14:10:09 2020    BRCI14A.GPD
+        fr--r--r--               61 Thu Jan  9 14:10:09 2020    brci14a.ini
+        fr--r--r--           127488 Thu Jan  9 14:10:09 2020    brci14ui.dll
+        fr--r--r--            31632 Thu Jan  9 14:10:10 2020    BRD116C.BUD
+        fr--r--r--            11248 Thu Jan  9 14:10:09 2020    BRD116C.GPD
+        fr--r--r--           127728 Thu Jan  9 14:10:09 2020    brio14aa.bcm
+        fr--r--r--           220536 Thu Jan  9 14:10:09 2020    brio14ab.bcm
+        fr--r--r--           127728 Thu Jan  9 14:10:09 2020    brio14ac.bcm
+        fr--r--r--           132440 Thu Jan  9 14:10:09 2020    brio14ad.bcm
+        fr--r--r--           127728 Thu Jan  9 14:10:09 2020    brio14af.bcm
+        fr--r--r--           220536 Thu Jan  9 14:10:09 2020    brio14ag.bcm
+        fr--r--r--           127728 Thu Jan  9 14:10:09 2020    brio14ah.bcm
+        fr--r--r--           132440 Thu Jan  9 14:10:09 2020    brio14ai.bcm
+        fr--r--r--           127728 Thu Jan  9 14:10:09 2020    brio14ak.bcm
+        fr--r--r--           220536 Thu Jan  9 14:10:09 2020    brio14al.bcm
+        fr--r--r--           127728 Thu Jan  9 14:10:09 2020    brio14am.bcm
+        fr--r--r--           132440 Thu Jan  9 14:10:09 2020    brio14an.bcm
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    en-US
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    mui
+        fr--r--r--           715776 Sun Jan 12 22:09:09 2020    mxdwdrv.dll
+        fr--r--r--            57960 Sun Jan 12 22:09:04 2020    mxdwdui.BUD
+        fr--r--r--           221184 Sun Jan 12 22:09:12 2020    mxdwdui.dll
+        fr--r--r--            67628 Thu Jan  9 10:31:43 2020    mxdwdui.gpd
+        fr--r--r--               42 Thu Jan  9 10:31:43 2020    mxdwdui.ini
+        fr--r--r--           847872 Sun Jan 12 22:09:04 2020    PS5UI.DLL
+        fr--r--r--            26038 Thu Jan  9 10:31:43 2020    PSCRIPT.HLP
+        fr--r--r--          1062732 Thu Jan  9 10:31:43 2020    PSCRIPT.NTF
+        fr--r--r--           630272 Sun Jan 12 22:09:04 2020    PSCRIPT5.DLL
+        fr--r--r--             5561 Thu Jan  9 10:31:43 2020    PS_SCHM.GDL
+        fr--r--r--            23812 Thu Jan  9 10:31:43 2020    STDDTYPE.GDL
+        fr--r--r--            14362 Thu Jan  9 10:31:43 2020    STDNAMES.GPD
+        fr--r--r--            59116 Thu Jan  9 10:31:43 2020    STDSCHEM.GDL
+        fr--r--r--             2278 Thu Jan  9 10:31:43 2020    STDSCHMX.GDL
+        fr--r--r--              415 Thu Jan  9 10:31:43 2020    TPOG.bin
+        fr--r--r--            21583 Thu Jan  9 10:31:43 2020    TPOG.chm
+        fr--r--r--           289608 Thu Jan  9 10:31:43 2020    TPPRN.DLL
+        fr--r--r--          1693000 Thu Jan  9 10:31:43 2020    TPPrnUI.DLL
+        fr--r--r--            35144 Thu Jan  9 10:31:43 2020    TPPrnUIchs.dll
+        fr--r--r--            35144 Thu Jan  9 10:31:43 2020    TPPrnUIcht.dll
+        fr--r--r--            41288 Thu Jan  9 10:31:43 2020    TPPrnUIcsy.dll
+        fr--r--r--            43336 Thu Jan  9 10:31:43 2020    TPPrnUIdeu.dll
+        fr--r--r--            42312 Thu Jan  9 10:31:43 2020    TPPrnUIell.dll
+        fr--r--r--            43336 Thu Jan  9 10:31:43 2020    TPPrnUIesn.dll
+        fr--r--r--            43848 Thu Jan  9 10:31:43 2020    TPPrnUIfra.dll
+        fr--r--r--            41288 Thu Jan  9 10:31:43 2020    TPPrnUIhun.dll
+        fr--r--r--            43336 Thu Jan  9 10:31:43 2020    TPPrnUIita.dll
+        fr--r--r--            37192 Thu Jan  9 10:31:43 2020    TPPrnUIjpn.dll
+        fr--r--r--            37192 Thu Jan  9 10:31:43 2020    TPPrnUIkor.dll
+        fr--r--r--            41800 Thu Jan  9 10:31:43 2020    TPPrnUIplk.dll
+        fr--r--r--            42824 Thu Jan  9 10:31:43 2020    TPPrnUIptb.dll
+        fr--r--r--            42312 Thu Jan  9 10:31:43 2020    TPPrnUIrus.dll
+        fr--r--r--            41800 Thu Jan  9 10:31:43 2020    TPPrnUIsve.dll
+        fr--r--r--            41288 Thu Jan  9 10:31:43 2020    TPPrnUItha.dll
+        fr--r--r--           154448 Thu Jan  9 10:31:43 2020    TPPS.DLL
+        fr--r--r--               60 Thu Jan  9 10:31:43 2020    TPPS.INI
+        fr--r--r--             7175 Thu Jan  9 10:31:43 2020    TPPS.PPD
+        fr--r--r--           479232 Sun Jan 12 22:09:09 2020    UNIDRV.DLL
+        fr--r--r--            21225 Thu Jan  9 10:31:43 2020    unidrv.hlp
+        fr--r--r--           884224 Sun Jan 12 22:09:09 2020    unidrvui.dll
+        fr--r--r--           762368 Sun Jan 12 22:09:09 2020    UNIRES.DLL
+        fr--r--r--          1576448 Sun Jan 12 22:09:09 2020    XPSSVCS.DLL
+        .\print$\x64\3\en-US\*
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    .
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    ..
+        fr--r--r--             6144 Thu Jan  9 10:31:43 2020    BRCI06UI.DLL.mui
+        fr--r--r--             5632 Thu Jan  9 10:31:43 2020    brci08ui.dll.mui
+        fr--r--r--             6144 Thu Jan  9 10:31:43 2020    brci14ui.dll.mui
+        fr--r--r--             6656 Thu Jan  9 10:31:43 2020    BRCLUI05.DLL.mui
+        fr--r--r--             6656 Thu Jan  9 10:31:43 2020    BRCLUI06.DLL.mui
+        fr--r--r--             3584 Thu Jan  9 10:31:43 2020    brmzui13.DLL.mui
+        fr--r--r--             9216 Thu Jan  9 10:31:43 2020    BRPTUI2.DLL.mui
+        fr--r--r--            10240 Thu Jan  9 10:31:43 2020    BRUUI23A.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR273.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR274.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR276.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR280.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR281.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR282.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR283.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR284.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR285.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR286.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR288.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR289.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR290.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR292.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR293.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR294.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR297.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR300.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR301.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR302.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR303.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR309.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR310.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR311.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR312.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR315.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR316.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR318.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR319.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR320.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR323.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR325.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR326.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR327.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR328.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR331.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR332.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR333.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR334.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR335.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR339.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR342.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBBR346.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_1.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_2.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_3.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_4.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_5.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_6.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_7.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBIC4_8.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBMR284.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBMR285.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBMR310.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBPC4_1.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBPC4_2.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBPCOMM.DLL.mui
+        fr--r--r--             2560 Thu Jan  9 10:31:43 2020    CNBPV3.DLL.mui
+        fr--r--r--             2560 Thu Jan  9 10:31:43 2020    CNBPV4.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_274.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_276.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_279.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_280.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_281.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_282.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_283.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_284.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_285.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_286.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_287.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_288.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_289.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_290.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_291.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_292.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_293.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_294.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_295.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_297.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_298.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_300.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_301.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_302.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_303.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_309.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_310.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_311.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_312.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_315.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_316.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_317.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_318.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_319.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_320.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_321.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_323.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_324.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_325.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_326.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_327.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_328.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_329.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_331.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_332.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_333.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_334.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_335.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_336.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_337.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_338.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_339.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_340.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_341.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_342.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNBP_346.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    CNN0B007.DLL.mui
+        fr--r--r--             4096 Thu Jan  9 10:31:43 2020    EP7RES00.DLL.mui
+        fr--r--r--             3584 Thu Jan  9 10:31:43 2020    EP7RES01.DLL.mui
+        fr--r--r--             5120 Thu Jan  9 10:31:43 2020    EP7UIP00.DLL.mui
+        fr--r--r--           165376 Thu Jan  9 10:31:43 2020    FXSRES.DLL.mui
+        fr--r--r--             7680 Thu Jan  9 10:31:43 2020    FXUCU001.DLL.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp6000at.dll.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp6000nt.dll.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp6500at.dll.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp6500nt.dll.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp8000at.dll.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp8500at.dll.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp8500gt.dll.mui
+        fr--r--r--            48640 Thu Jan  9 10:31:43 2020    hp8500nt.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpb8500t.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpc309at.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpc4500t.dll.mui
+        fr--r--r--            47616 Thu Jan  9 10:31:43 2020    hpc4600t.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpc5300t.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpc5500t.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpc6300t.dll.mui
+        fr--r--r--            47616 Thu Jan  9 10:31:43 2020    hpd2600t.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpD5400t.dll.mui
+        fr--r--r--            49152 Thu Jan  9 10:31:43 2020    hpd7500t.dll.mui
+        fr--r--r--            47616 Thu Jan  9 10:31:43 2020    hpf4400t.dll.mui
+        fr--r--r--             5120 Thu Jan  9 10:31:43 2020    hpfevw73.dll.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    hpfiew71.dll.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    hpfiew73.dll.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    HPFIME50.DLL.mui
+        fr--r--r--             3584 Thu Jan  9 10:31:43 2020    hpfprw73.dll.mui
+        fr--r--r--            21504 Thu Jan  9 10:31:43 2020    HPZ3Awn7.DLL.mui
+        fr--r--r--             6144 Thu Jan  9 10:31:43 2020    HPZEVW71.DLL.mui
+        fr--r--r--             5120 Thu Jan  9 10:31:43 2020    hpzevw72.dll.mui
+        fr--r--r--             5120 Thu Jan  9 10:31:43 2020    HPZEVWN7.DLL.mui
+        fr--r--r--            20992 Thu Jan  9 10:31:43 2020    hpzlaw71.dll.mui
+        fr--r--r--            14336 Thu Jan  9 10:31:43 2020    HPZLAwn7.DLL.mui
+        fr--r--r--            18944 Thu Jan  9 10:31:43 2020    HPZLSWN7.DLL.mui
+        fr--r--r--             3584 Thu Jan  9 10:31:43 2020    hpzprw71.dll.mui
+        fr--r--r--             3584 Thu Jan  9 10:31:43 2020    hpzprw72.dll.mui
+        fr--r--r--             3584 Thu Jan  9 10:31:43 2020    HPZPRwn7.DLL.mui
+        fr--r--r--            67584 Thu Jan  9 10:31:43 2020    HPZUIW71.DLL.mui
+        fr--r--r--            47616 Thu Jan  9 10:31:43 2020    HPZUIWN7.DLL.mui
+        fr--r--r--            15360 Thu Jan  9 10:31:43 2020    KO0C0001.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    KYW7FR02.DLL.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    kyw7fr03.dll.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    kyw7fr04.dll.mui
+        fr--r--r--             2048 Thu Jan  9 10:31:43 2020    KYW7FRES.DLL.mui
+        fr--r--r--             7168 Thu Jan  9 10:31:43 2020    lxkpclrs.dll.mui
+        fr--r--r--            27648 Thu Jan  9 10:31:43 2020    lxkpclui.dll.mui
+        fr--r--r--            30208 Thu Jan  9 10:31:43 2020    lxkpsui.dll.mui
+        fr--r--r--             8192 Thu Jan  9 10:31:43 2020    LXKXLRES.DLL.mui
+        fr--r--r--            27648 Thu Jan  9 10:31:43 2020    LXKXLUI.DLL.mui
+        fr--r--r--             3072 Thu Jan  9 10:31:43 2020    OK9IBRES.DLL.mui
+        fr--r--r--             9216 Thu Jan  9 10:31:43 2020    OKDTERES.DLL.mui
+        fr--r--r--             6656 Thu Jan  9 10:31:43 2020    OKDTURES.DLL.mui
+        fr--r--r--             7168 Thu Jan  9 10:31:43 2020    PCL4RES.DLL.mui
+        fr--r--r--            18944 Thu Jan  9 10:31:43 2020    PCL5ERES.DLL.mui
+        fr--r--r--            18944 Thu Jan  9 10:31:43 2020    PCL5URES.DLL.mui
+        fr--r--r--             2560 Thu Jan  9 10:31:43 2020    PCLXL.DLL.mui
+        fr--r--r--            14336 Thu Jan  9 10:31:43 2020    PS5UI.DLL.mui
+        fr--r--r--             4096 Thu Jan  9 10:31:43 2020    PSCRIPT5.DLL.mui
+        fr--r--r--            10752 Thu Jan  9 10:31:43 2020    RIARES7.DLL.mui
+        fr--r--r--            29696 Thu Jan  9 10:31:43 2020    RIAUI17.DLL.mui
+        fr--r--r--            29696 Thu Jan  9 10:31:43 2020    RIAUI27.DLL.mui
+        fr--r--r--            29696 Thu Jan  9 10:31:43 2020    RIPSUI7.DLL.mui
+        fr--r--r--            17408 Thu Jan  9 10:31:43 2020    SH_1_RES.DLL.mui
+        fr--r--r--             4096 Thu Jan  9 10:31:43 2020    SODPPUI2.DLL.mui
+        fr--r--r--             6144 Thu Jan  9 10:31:43 2020    tsmxuui3.dll.mui
+        fr--r--r--             4096 Thu Jan  9 10:31:43 2020    tsprint.dll.mui
+        fr--r--r--             2560 Thu Jan  9 10:31:43 2020    TTYRES.DLL.mui
+        fr--r--r--             5120 Thu Jan  9 10:31:43 2020    TTYUI.DLL.mui
+        fr--r--r--            11264 Thu Jan  9 10:31:43 2020    UNIDRVUI.DLL.mui
+        fr--r--r--             8704 Thu Jan  9 10:31:43 2020    UNIRES.DLL.mui
+        .\print$\x64\3\mui\*
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    .
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    ..
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    0409
+        .\print$\x64\3\mui\0409\*
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    .
+        dr--r--r--                0 Thu Jan  9 18:06:29 2020    ..
+        fr--r--r--            26038 Thu Jan  9 10:31:43 2020    PSCRIPT.HLP
+        fr--r--r--            14387 Thu Jan  9 10:31:43 2020    TTYUI.HLP
+        fr--r--r--            21225 Thu Jan  9 10:31:43 2020    UNIDRV.HLP
+        .\print$\x64\PCC\*
+        dr--r--r--                0 Sun Jan 12 22:12:37 2020    .
+        dr--r--r--                0 Sun Jan 12 22:12:37 2020    ..
+        fr--r--r--          4073740 Sun Jan 12 22:09:14 2020    ntprint.inf_amd64_neutral_4616c3de1949be6d.cab
+        fr--r--r--            81740 Thu Jan  9 10:31:43 2020    oemprint.inf_amd64_neutral_1c61babacbb41e90.cab
+        fr--r--r--          1394271 Thu Jan  9 10:31:43 2020    oemprint.inf_amd64_neutral_eb780557355f07b5.cab
+        fr--r--r--          1457321 Thu Jan  9 14:24:37 2020    prnbr009.inf_amd64_neutral_fd2ac5b9c40bd465.cab
+        fr--r--r--            88480 Sun Jan 12 22:09:14 2020    prnms001.inf_amd64_neutral_9fe8503f82ce60fa.cab
+        SYSVOL                                                  READ ONLY       Logon server share 
+        .\SYSVOL\*
+        dr--r--r--                0 Thu Jan  9 10:31:27 2020    .
+        dr--r--r--                0 Thu Jan  9 10:31:27 2020    ..
+        dr--r--r--                0 Thu Jan  9 10:31:27 2020    cascade.local
+        .\SYSVOL\cascade.local\*
+        dr--r--r--                0 Thu Jan  9 10:33:07 2020    .
+        dr--r--r--                0 Thu Jan  9 10:33:07 2020    ..
+        dr--r--r--                0 Thu Feb 17 09:49:18 2022    DfsrPrivate
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    Policies
+        dr--r--r--                0 Wed Jan 15 16:50:33 2020    scripts
+        .\SYSVOL\cascade.local\Policies\*
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    .
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    ..
+        dr--r--r--                0 Thu Jan  9 13:12:59 2020    {2906D621-7B58-40F1-AA47-4ED2AEF29484}
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    {31B2F340-016D-11D2-945F-00C04FB984F9}
+        dr--r--r--                0 Thu Jan  9 13:30:29 2020    {322FEA29-156D-4476-8A06-1935A3525C1C}
+        dr--r--r--                0 Thu Jan  9 14:42:31 2020    {4026EDF8-DBDA-4AED-8266-5A04B80D9327}
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    {6AC1786C-016F-11D2-945F-00C04fB984F9}
+        dr--r--r--                0 Thu Jan  9 13:34:03 2020    {820E48A7-D083-4C2D-B5F8-B24462924714}
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    {D67C2AD5-44C7-4468-BA4C-199E75B2F295}
+        .\SYSVOL\cascade.local\Policies\{2906D621-7B58-40F1-AA47-4ED2AEF29484}\*
+        dr--r--r--                0 Thu Jan  9 13:12:59 2020    .
+        dr--r--r--                0 Thu Jan  9 13:12:59 2020    ..
+        fr--r--r--               59 Thu Jan  9 13:13:00 2020    GPT.INI
+        dr--r--r--                0 Thu Jan  9 13:12:59 2020    Machine
+        dr--r--r--                0 Thu Jan  9 13:12:59 2020    User
+        .\SYSVOL\cascade.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\*
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    .
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    ..
+        fr--r--r--               23 Mon Mar 23 04:33:59 2020    GPT.INI
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    MACHINE
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    USER
+        .\SYSVOL\cascade.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\*
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    .
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    ..
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    Microsoft
+        fr--r--r--             2790 Thu Jan  9 10:48:03 2020    Registry.pol
+        dr--r--r--                0 Thu Jan  9 10:50:50 2020    Scripts
+        .\SYSVOL\cascade.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Microsoft\*
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    .
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    ..
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    Windows NT
+        .\SYSVOL\cascade.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Scripts\*
+        dr--r--r--                0 Thu Jan  9 10:50:50 2020    .
+        dr--r--r--                0 Thu Jan  9 10:50:50 2020    ..
+        dr--r--r--                0 Thu Jan  9 10:50:50 2020    Shutdown
+        dr--r--r--                0 Thu Jan  9 10:50:50 2020    Startup
+        .\SYSVOL\cascade.local\Policies\{322FEA29-156D-4476-8A06-1935A3525C1C}\*
+        dr--r--r--                0 Thu Jan  9 13:30:29 2020    .
+        dr--r--r--                0 Thu Jan  9 13:30:29 2020    ..
+        fr--r--r--               24 Thu Jan  9 13:30:29 2020    GPO.cmt
+        fr--r--r--               64 Tue Jan 28 17:07:51 2020    GPT.INI
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    Machine
+        dr--r--r--                0 Thu Jan  9 14:46:06 2020    User
+        .\SYSVOL\cascade.local\Policies\{322FEA29-156D-4476-8A06-1935A3525C1C}\Machine\*
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    .
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    ..
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    Scripts
+        .\SYSVOL\cascade.local\Policies\{322FEA29-156D-4476-8A06-1935A3525C1C}\Machine\Scripts\*
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    .
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    ..
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    Shutdown
+        dr--r--r--                0 Thu Jan  9 14:45:58 2020    Startup
+        .\SYSVOL\cascade.local\Policies\{322FEA29-156D-4476-8A06-1935A3525C1C}\User\*
+        dr--r--r--                0 Thu Jan  9 14:46:06 2020    .
+        dr--r--r--                0 Thu Jan  9 14:46:06 2020    ..
+        dr--r--r--                0 Thu Jan  9 14:46:06 2020    Documents & Settings
+        dr--r--r--                0 Thu Jan  9 15:40:35 2020    Scripts
+        .\SYSVOL\cascade.local\Policies\{322FEA29-156D-4476-8A06-1935A3525C1C}\User\Scripts\*
+        dr--r--r--                0 Thu Jan  9 15:40:35 2020    .
+        dr--r--r--                0 Thu Jan  9 15:40:35 2020    ..
+        dr--r--r--                0 Thu Jan  9 14:46:06 2020    Logoff
+        dr--r--r--                0 Tue Jan 28 17:07:49 2020    Logon
+        fr--r--r--                6 Tue Jan 28 17:07:51 2020    scripts.ini
+        .\SYSVOL\cascade.local\Policies\{4026EDF8-DBDA-4AED-8266-5A04B80D9327}\*
+        dr--r--r--                0 Thu Jan  9 14:42:31 2020    .
+        dr--r--r--                0 Thu Jan  9 14:42:31 2020    ..
+        fr--r--r--               59 Thu Jan  9 14:42:31 2020    GPT.INI
+        dr--r--r--                0 Thu Jan  9 14:42:31 2020    Machine
+        dr--r--r--                0 Thu Jan  9 14:42:31 2020    User
+        .\SYSVOL\cascade.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\*
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    .
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    ..
+        fr--r--r--               23 Sun Jan 26 12:12:15 2020    GPT.INI
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    MACHINE
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    USER
+        .\SYSVOL\cascade.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\MACHINE\*
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    .
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    ..
+        dr--r--r--                0 Thu Jan  9 16:56:53 2020    Applications
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    Microsoft
+        dr--r--r--                0 Thu Jan  9 13:44:58 2020    Scripts
+        .\SYSVOL\cascade.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\MACHINE\Microsoft\*
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    .
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    ..
+        dr--r--r--                0 Thu Jan  9 10:31:40 2020    Windows NT
+        .\SYSVOL\cascade.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\MACHINE\Scripts\*
+        dr--r--r--                0 Thu Jan  9 13:44:58 2020    .
+        dr--r--r--                0 Thu Jan  9 13:44:58 2020    ..
+        dr--r--r--                0 Thu Jan  9 13:44:58 2020    Shutdown
+        dr--r--r--                0 Thu Jan  9 13:44:58 2020    Startup
+        .\SYSVOL\cascade.local\Policies\{820E48A7-D083-4C2D-B5F8-B24462924714}\*
+        dr--r--r--                0 Thu Jan  9 13:34:03 2020    .
+        dr--r--r--                0 Thu Jan  9 13:34:03 2020    ..
+        fr--r--r--               59 Thu Jan  9 13:34:03 2020    GPT.INI
+        dr--r--r--                0 Thu Jan  9 13:33:51 2020    Machine
+        dr--r--r--                0 Thu Jan  9 13:33:51 2020    User
+        .\SYSVOL\cascade.local\Policies\{D67C2AD5-44C7-4468-BA4C-199E75B2F295}\*
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    .
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    ..
+        fr--r--r--               59 Thu Jan  9 14:42:40 2020    GPT.INI
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    Machine
+        dr--r--r--                0 Thu Jan  9 14:42:40 2020    User
+        .\SYSVOL\cascade.local\scripts\*
+        dr--r--r--                0 Wed Jan 15 16:50:33 2020    .
+        dr--r--r--                0 Wed Jan 15 16:50:33 2020    ..
+        fr--r--r--              258 Wed Jan 15 16:50:14 2020    MapAuditDrive.vbs
+        fr--r--r--              255 Wed Jan 15 16:51:03 2020    MapDataDrive.vbs
+                                                                                                                
