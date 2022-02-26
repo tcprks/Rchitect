@@ -1,0 +1,80 @@
+ python3 vol.py -f /home/rocky/hckbox/silo/dump/SILO-20180105-221806.dmp windows.pslist.PsList
+Volatility 3 Framework 2.0.2
+Progress:  100.00               PDB scanning finished                                                                                              
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime        File output
+
+4       0       System  0xe00000089940  84      -       N/A     False   2018-01-05 22:17:14.000000      N/A     Disabled
+208     4       smss.exe        0xe00000c9c100  3       -       N/A     False   2018-01-05 22:17:14.000000      N/A     Disabled
+324     316     csrss.exe       0xe000034f54c0  10      -       0       False   2018-01-05 22:17:15.000000      N/A     Disabled
+396     388     csrss.exe       0xe000034ec380  10      -       1       False   2018-01-05 22:17:16.000000      N/A     Disabled
+404     316     wininit.exe     0xe000034ac940  4       -       0       False   2018-01-05 22:17:16.000000      N/A     Disabled
+448     388     winlogon.exe    0xe00002fee080  5       -       1       False   2018-01-05 22:17:16.000000      N/A     Disabled
+492     404     services.exe    0xe00003550940  10      -       0       False   2018-01-05 22:17:16.000000      N/A     Disabled
+500     404     lsass.exe       0xe00003ed4080  6       -       0       False   2018-01-05 22:17:16.000000      N/A     Disabled
+560     492     svchost.exe     0xe00003f22500  15      -       0       False   2018-01-05 22:17:16.000000      N/A     Disabled
+604     492     svchost.exe     0xe00003f39940  15      -       0       False   2018-01-05 22:17:16.000000      N/A     Disabled
+688     448     dwm.exe 0xe00003f6f680  9       -       1       False   2018-01-05 22:17:16.000000      N/A     Disabled
+708     492     vmacthlp.exe    0xe00003f68940  2       -       0       False   2018-01-05 22:17:16.000000      N/A     Disabled
+764     492     svchost.exe     0xe00003fb9080  16      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+800     492     svchost.exe     0xe00003fcc940  63      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+832     492     svchost.exe     0xe00003fe3940  20      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+920     492     svchost.exe     0xe00004e267c0  25      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+340     492     svchost.exe     0xe00004e8d940  16      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+308     492     spoolsv.exe     0xe00004f2e940  13      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+1052    492     svchost.exe     0xe00004f5c940  11      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+1088    492     oracle.exe      0xe00004f84940  30      -       0       False   2018-01-05 22:17:17.000000      N/A     Disabled
+1192    492     OraClrAgnt.exe  0xe00004fe93c0  2       -       0       False   2018-01-05 22:17:18.000000      N/A     Disabled
+1208    492     TNSLSNR.EXE     0xe00004fef940  5       -       0       False   2018-01-05 22:17:18.000000      N/A     Disabled
+1216    1192    agtctl.exe      0xe00004ff0300  0       -       0       False   2018-01-05 22:17:18.000000      2018-01-05 22:17:18.000000      Disabled
+1264    1192    agtctl.exe      0xe00004ff3940  0       -       0       False   2018-01-05 22:17:18.000000      2018-01-05 22:17:18.000000      Disabled
+1272    492     svchost.exe     0xe00004ffc440  4       -       0       False   2018-01-05 22:17:18.000000      N/A     Disabled
+1324    492     VGAuthService.  0xe00004fff080  3       -       0       False   2018-01-05 22:17:18.000000      N/A     Disabled
+1348    1192    agtctl.exe      0xe000060568c0  0       -       0       False   2018-01-05 22:17:18.000000      2018-01-05 22:17:18.000000      Disabled
+1388    1192    agtctl.exe      0xe000060767c0  0       -       0       False   2018-01-05 22:17:18.000000      2018-01-05 22:17:18.000000      Disabled
+1444    492     vmtoolsd.exe    0xe0000608f780  8       -       0       False   2018-01-05 22:17:18.000000      N/A     Disabled
+1492    492     ManagementAgen  0xe000060a62c0  9       -       0       False   2018-01-05 22:17:18.000000      N/A     Disabled
+1516    492     svchost.exe     0xe000060c7940  16      -       0       False   2018-01-05 22:17:19.000000      N/A     Disabled
+2000    492     svchost.exe     0xe00003051940  5       -       0       False   2018-01-05 22:17:27.000000      N/A     Disabled
+1256    492     TPAutoConnSvc.  0xe00003077880  8       -       0       False   2018-01-05 22:17:27.000000      N/A     Disabled
+1432    492     dllhost.exe     0xe000030a1080  21      -       0       False   2018-01-05 22:17:27.000000      N/A     Disabled
+1600    492     dllhost.exe     0xe000030b7940  17      -       0       False   2018-01-05 22:17:27.000000      N/A     Disabled
+1440    560     WmiPrvSE.exe    0xe000030cd940  12      -       0       False   2018-01-05 22:17:27.000000      N/A     Disabled
+2052    492     msdtc.exe       0xe000030cf940  13      -       0       False   2018-01-05 22:17:27.000000      N/A     Disabled
+2228    492     VSSVC.exe       0xe00003117940  7       -       0       False   2018-01-05 22:17:29.000000      N/A     Disabled
+2284    492     sppsvc.exe      0xe00003149080  5       -       0       False   2018-01-05 22:17:29.000000      N/A     Disabled
+2312    560     SppExtComObj.E  0xe0000315f940  5       -       0       False   2018-01-05 22:17:29.000000      N/A     Disabled
+2368    800     taskhostex.exe  0xe000061637c0  7       -       1       False   2018-01-05 22:17:33.000000      N/A     Disabled
+2424    2416    explorer.exe    0xe00004e00680  56      -       1       False   2018-01-05 22:17:33.000000      N/A     Disabled
+2732    2376    ServerManager.  0xe00000df34c0  24      -       1       False   2018-01-05 22:17:35.000000      N/A     Disabled
+2824    1256    TPAutoConnect.  0xe0000301c940  3       -       1       False   2018-01-05 22:17:37.000000      N/A     Disabled
+2832    2824    conhost.exe     0xe00003f698c0  1       -       1       False   2018-01-05 22:17:37.000000      N/A     Disabled
+2992    2424    vmtoolsd.exe    0xe0000136d080  8       -       1       False   2018-01-05 22:17:45.000000      N/A     Disabled
+3056    560     WmiPrvSE.exe    0xe00003224540  19      -       0       False   2018-01-05 22:17:47.000000      N/A     Disabled
+2340    560     WmiPrvSE.exe    0xe00003239940  10      -       0       False   2018-01-05 22:17:47.000000      N/A     Disabled
+864     492     WmiApSrv.exe    0xe0000325c940  5       -       0       False   2018-01-05 22:17:48.000000      N/A     Disabled
+2932    2424    DumpIt.exe      0xe00003203340  4       -       1       False   2018-01-05 22:18:06.000000      N/A     Disabled
+2764    2932    conhost.exe     0xe00003f8c940  2       -       1       False   2018-01-05 22:18:06.000000      N/A     Disabled
+
+========================================
+─$ python3 vol.py -f /home/rocky/hckbox/silo/dump/SILO-20180105-221806.dmp windows.hashdump.Hashdump
+Volatility 3 Framework 2.0.0-beta.1
+Volatility 3 Framework 2.0.2
+Progress:  100.00               PDB scanning finished                                
+User    rid     lmhash  nthash
+
+Administrator   500     aad3b435b51404eeaad3b435b51404ee        9e730375b7cbcebf74ae46481e07b0c7
+Guest   501     aad3b435b51404eeaad3b435b51404ee        31d6cfe0d16ae931b73c59d7e0c089c0
+Phineas 1002    aad3b435b51404eeaad3b435b51404ee        8eacdd67b77749e65d3b3d5c110b0969
+
+Volatility: command not found
+=========================================
+                                                                                                                                                                            
+┌──(rocky㉿kali)-[~/tool/exp/volatility3]
+└─$ python3 vol.py -f /home/rocky/hckbox/silo/dump/SILO-20180105-221806.dmp windows.lsadump.Lsadump                                                                   127 ⨯
+Volatility 3 Framework 2.0.2
+Progress:  100.00               PDB scanning finished                                
+Key     Secret  Hex
+
+DefaultPassword DoNotH@ckMeBro! 1e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 44 00 6f 00 4e 00 6f 00 74 00 48 00 40 00 63 00 6b 00 4d 00 65 00 42 00 72 00 6f 00 21 00 00 00
+DPAPI_SYSTEM    ,Ï%14®C-¬ò§tmC¨¦©Bb÷UpH»}þyI½   2c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 cf 25 94 31 34 9e ae 43 2d 8b 87 ac f2 a7 74 1c 6d ec 1c 04 08 43 a8 a6 a9 42 62 f7 55 70 48 bb 17 7d 82 fe 79 49 02 bd 00 00 00 00
+                                                                       
