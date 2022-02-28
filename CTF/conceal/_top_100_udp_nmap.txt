@@ -1,0 +1,213 @@
+# Nmap 7.91 scan initiated Sun Feb 27 19:59:02 2022 as: nmap -vv --reason -Pn -T4 -sU -A --top-ports 100 -oN /opt/AutoRecon/results/10.10.10.116/scans/_top_100_udp_nmap.txt -oX /opt/AutoRecon/results/10.10.10.116/scans/xml/_top_100_udp_nmap.xml 10.10.10.116
+Nmap scan report for 10.10.10.116
+Host is up, received user-set (0.12s latency).
+Scanned at 2022-02-27 19:59:03 EST for 1844s
+Not shown: 98 open|filtered ports
+Reason: 98 no-responses
+PORT    STATE SERVICE REASON               VERSION
+161/udp open  snmp    udp-response         SNMPv1 server (public)
+| snmp-interfaces: 
+|   Software Loopback Interface 1\x00
+|     IP address: 127.0.0.1  Netmask: 255.0.0.0
+|     Type: softwareLoopback  Speed: 1 Gbps
+|     Status: up
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (IKEv2)\x00
+|     Type: tunnel  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (PPTP)\x00
+|     Type: tunnel  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   Microsoft Kernel Debug Network Adapter\x00
+|     Type: ethernetCsmacd  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (L2TP)\x00
+|     Type: tunnel  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   Teredo Tunneling Pseudo-Interface\x00
+|     MAC address: Unknown
+|     Type: tunnel  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (IP)\x00
+|     Type: ethernetCsmacd  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (SSTP)\x00
+|     Type: tunnel  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (IPv6)\x00
+|     Type: ethernetCsmacd  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (PPPOE)\x00
+|     Type: ppp  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   WAN Miniport (Network Monitor)\x00
+|     Type: ethernetCsmacd  Speed: 0 Kbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   vmxnet3 Ethernet Adapter\x00
+|     IP address: 10.10.10.116  Netmask: 255.255.255.0
+|     MAC address: 00:50:56:b9:be:27 (VMware)
+|     Type: ethernetCsmacd  Speed: 4 Gbps
+|     Status: up
+|     Traffic stats: 124.71 Kb sent, 18.12 Mb received
+|   vmxnet3 Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000\x00
+|     MAC address: 00:50:56:b9:be:27 (VMware)
+|     Type: ethernetCsmacd  Speed: 4 Gbps
+|     Status: up
+|     Traffic stats: 124.71 Kb sent, 18.12 Mb received
+|   vmxnet3 Ethernet Adapter-QoS Packet Scheduler-0000\x00
+|     MAC address: 00:50:56:b9:be:27 (VMware)
+|     Type: ethernetCsmacd  Speed: 4 Gbps
+|     Status: up
+|     Traffic stats: 124.71 Kb sent, 18.12 Mb received
+|   vmxnet3 Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000\x00
+|     MAC address: 00:50:56:b9:be:27 (VMware)
+|     Type: ethernetCsmacd  Speed: 4 Gbps
+|     Status: up
+|_    Traffic stats: 124.71 Kb sent, 18.12 Mb received
+| snmp-netstat: 
+|   TCP  0.0.0.0:21           0.0.0.0:0
+|   TCP  0.0.0.0:80           0.0.0.0:0
+|   TCP  0.0.0.0:135          0.0.0.0:0
+|   TCP  0.0.0.0:445          0.0.0.0:0
+|   TCP  0.0.0.0:49664        0.0.0.0:0
+|   TCP  0.0.0.0:49665        0.0.0.0:0
+|   TCP  0.0.0.0:49666        0.0.0.0:0
+|   TCP  0.0.0.0:49667        0.0.0.0:0
+|   TCP  0.0.0.0:49668        0.0.0.0:0
+|   TCP  0.0.0.0:49669        0.0.0.0:0
+|   TCP  0.0.0.0:49670        0.0.0.0:0
+|   TCP  10.10.10.116:139     0.0.0.0:0
+|   UDP  0.0.0.0:123          *:*
+|   UDP  0.0.0.0:161          *:*
+|   UDP  0.0.0.0:500          *:*
+|   UDP  0.0.0.0:4500         *:*
+|   UDP  0.0.0.0:5050         *:*
+|   UDP  0.0.0.0:5353         *:*
+|   UDP  0.0.0.0:5355         *:*
+|   UDP  10.10.10.116:137     *:*
+|   UDP  10.10.10.116:138     *:*
+|   UDP  10.10.10.116:1900    *:*
+|   UDP  10.10.10.116:55340   *:*
+|   UDP  127.0.0.1:1900       *:*
+|_  UDP  127.0.0.1:55341      *:*
+| snmp-processes: 
+|   1: 
+| 
+|   4: 
+| 
+|   280: 
+| 
+|   292: 
+| 
+|   336: 
+| 
+|_  384: 
+| snmp-sysdescr: Hardware: AMD64 Family 23 Model 49 Stepping 0 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 15063 Multiprocessor Free)
+|_  System uptime: 44m5.39s (264539 timeticks)
+| snmp-win32-services: 
+|   Application Host Helper Service
+|   Background Intelligent Transfer Service
+|   Background Tasks Infrastructure Service
+|   Base Filtering Engine
+|   CNG Key Isolation
+|   COM+ Event System
+|   COM+ System Application
+|   Connected Devices Platform Service
+|   Connected User Experiences and Telemetry
+|   CoreMessaging
+|   Cryptographic Services
+|   DCOM Server Process Launcher
+|   DHCP Client
+|   DNS Client
+|   Data Sharing Service
+|   Data Usage
+|   Device Setup Manager
+|   Diagnostic Policy Service
+|   Diagnostic Service Host
+|   Distributed Link Tracking Client
+|   Distributed Transaction Coordinator
+|   Geolocation Service
+|   Group Policy Client
+|   IKE and AuthIP IPsec Keying Modules
+|   IP Helper
+|   IPsec Policy Agent
+|   Local Session Manager
+|   Microsoft FTP Service
+|   Network Connection Broker
+|   Network List Service
+|   Network Location Awareness
+|   Network Store Interface Service
+|   Plug and Play
+|   Power
+|   Print Spooler
+|   Program Compatibility Assistant Service
+|   RPC Endpoint Mapper
+|   Remote Procedure Call (RPC)
+|   SNMP Service
+|   SSDP Discovery
+|   Security Accounts Manager
+|   Security Center
+|   Server
+|   Shell Hardware Detection
+|   State Repository Service
+|   Storage Service
+|   Superfetch
+|   System Event Notification Service
+|   System Events Broker
+|   TCP/IP NetBIOS Helper
+|   Task Scheduler
+|   Themes
+|   Time Broker
+|   TokenBroker
+|   User Manager
+|   User Profile Service
+|   VMware Alias Manager and Ticket Service
+|   VMware CAF Management Agent Service
+|   VMware Physical Disk Helper Service
+|   VMware Tools
+|   WinHTTP Web Proxy Auto-Discovery Service
+|   Windows Audio
+|   Windows Audio Endpoint Builder
+|   Windows Connection Manager
+|   Windows Defender Antivirus Network Inspection Service
+|   Windows Defender Antivirus Service
+|   Windows Defender Security Centre Service
+|   Windows Driver Foundation - User-mode Driver Framework
+|   Windows Event Log
+|   Windows Firewall
+|   Windows Font Cache Service
+|   Windows Management Instrumentation
+|   Windows Process Activation Service
+|   Windows Push Notifications System Service
+|   Windows Search
+|   Windows Time
+|   Workstation
+|_  World Wide Web Publishing Service
+| snmp-win32-software: 
+|   Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161; 2021-03-17T15:16:36
+|   Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161; 2021-03-17T15:16:36
+|_  VMware Tools; 2021-03-17T15:16:36
+| snmp-win32-users: 
+|   Administrator
+|   DefaultAccount
+|   Destitute
+|_  Guest
+500/udp open  isakmp? udp-response ttl 127
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.91%E=4%D=2/27%OT=%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=621C258B%P=x86_64-pc-linux-gnu)
+SEQ(II=I)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: Host: Conceal
+
+TRACEROUTE (using port 500/udp)
+HOP RTT       ADDRESS
+1   64.25 ms  10.10.14.1
+2   548.10 ms 10.10.10.116
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 27 20:29:47 2022 -- 1 IP address (1 host up) scanned in 1845.24 seconds
