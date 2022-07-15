@@ -1,0 +1,353 @@
+tarted by timer
+Running as SYSTEM
+Building in workspace C:\Users\oliver\AppData\Local\Jenkins\.jenkins\workspace\rchitect-test
+[rchitect-test] $ cmd /c call C:\Users\oliver\AppData\Local\Temp\jenkins3695099462493852061.bat
+
+C:\Users\oliver\AppData\Local\Jenkins\.jenkins\workspace\rchitect-test>powershell -c Get-NetFirewallRule -Direction Outbound -Enabled True -Action Allow 
+
+
+Name                  : Microsoft-Windows-Unified-Telemetry-Client
+DisplayName           : Connected User Experiences and Telemetry
+Description           : Unified Telemetry Client Outbound Traffic
+DisplayGroup          : DiagTrack
+Group                 : DiagTrack
+Enabled               : True
+Profile               : Any
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : AllJoyn-Router-Out-TCP
+DisplayName           : AllJoyn Router (TCP-Out)
+Description           : Outbound rule for AllJoyn Router traffic [TCP]
+DisplayGroup          : AllJoyn Router
+Group                 : @FirewallAPI.dll,-37002
+Enabled               : True
+Profile               : Domain, Private
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : AllJoyn-Router-Out-UDP
+DisplayName           : AllJoyn Router (UDP-Out)
+Description           : Outbound rule for AllJoyn Router traffic [UDP]
+DisplayGroup          : AllJoyn Router
+Group                 : @FirewallAPI.dll,-37002
+Enabled               : True
+Profile               : Domain, Private
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : Microsoft-Windows-Enrollment-WinRT-TCP-Out
+DisplayName           : Windows Device Management Enrollment Service (TCP out)
+Description           : Allow outbound TCP traffic from Windows Device Management Enrollment Service
+DisplayGroup          : Windows Device Management
+Group                 : @FirewallAPI.dll,-37502
+Enabled               : True
+Profile               : Any
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : PlayTo-Out-UDP-NoScope
+DisplayName           : Cast to Device streaming server (RTP-Streaming-Out)
+Description           : Outbound rule for the Cast to Device server to allow streaming using RTSP and RTP. [UDP]
+DisplayGroup          : Cast to Device functionality
+Group                 : @FirewallAPI.dll,-36001
+Enabled               : True
+Profile               : Domain
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : PlayTo-Out-UDP-LocalSubnetScope
+DisplayName           : Cast to Device streaming server (RTP-Streaming-Out)
+Description           : Outbound rule for the Cast to Device server to allow streaming using RTSP and RTP. [UDP]
+DisplayGroup          : Cast to Device functionality
+Group                 : @FirewallAPI.dll,-36001
+Enabled               : True
+Profile               : Private
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : PlayTo-Out-UDP-PlayToScope
+DisplayName           : Cast to Device streaming server (RTP-Streaming-Out)
+Description           : Outbound rule for the Cast to Device server to allow streaming using RTSP and RTP. [UDP]
+DisplayGroup          : Cast to Device functionality
+Group                 : @FirewallAPI.dll,-36001
+Enabled               : True
+Profile               : Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : PlayTo-QWave-Out-UDP-PlayToScope
+DisplayName           : Cast to Device functionality (qWave-UDP-Out)
+Description           : Outbound rule for the Cast to Device functionality to allow use of the Quality Windows Audio 
+                        Video Experience Service. [UDP 2177]
+DisplayGroup          : Cast to Device functionality
+Group                 : @FirewallAPI.dll,-36001
+Enabled               : True
+Profile               : Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : PlayTo-QWave-Out-TCP-PlayToScope
+DisplayName           : Cast to Device functionality (qWave-TCP-Out)
+Description           : Outbound rule for the Cast to Device functionality to allow use of the Quality Windows Audio 
+                        Video Experience Service. [TCP 2177]
+DisplayGroup          : Cast to Device functionality
+Group                 : @FirewallAPI.dll,-36001
+Enabled               : True
+Profile               : Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : Microsoft-Windows-DeviceManagement-CertificateInstall-TCP-Out
+DisplayName           : Windows Device Management Certificate Installer (TCP out)
+Description           : Allow outbound TCP traffic from Windows Device Management Certificate Installer
+DisplayGroup          : Windows Device Management
+Group                 : @FirewallAPI.dll,-37502
+Enabled               : True
+Profile               : Any
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : FPS-NB_Session-Out-TCP
+DisplayName           : File and Printer Sharing (NB-Session-Out)
+Description           : Outbound rule for File and Printer Sharing to allow NetBIOS Session Service connections. [TCP 
+                        139]
+DisplayGroup          : File and Printer Sharing
+Group                 : @FirewallAPI.dll,-28502
+Enabled               : True
+Profile               : Domain, Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : FPS-SMB-Out-TCP
+DisplayName           : File and Printer Sharing (SMB-Out)
+Description           : Outbound rule for File and Printer Sharing to allow Server Message Block transmission and 
+                        reception via Named Pipes. [TCP 445]
+DisplayGroup          : File and Printer Sharing
+Group                 : @FirewallAPI.dll,-28502
+Enabled               : True
+Profile               : Domain, Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : FPS-NB_Name-Out-UDP
+DisplayName           : File and Printer Sharing (NB-Name-Out)
+Description           : Outbound rule for File and Printer Sharing to allow NetBIOS Name Resolution. [UDP 137]
+DisplayGroup          : File and Printer Sharing
+Group                 : @FirewallAPI.dll,-28502
+Enabled               : True
+Profile               : Domain, Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : FPS-NB_Datagram-Out-UDP
+DisplayName           : File and Printer Sharing (NB-Datagram-Out)
+Description           : Outbound rule for File and Printer Sharing to allow NetBIOS Datagram transmission and 
+                        reception. [UDP 138]
+DisplayGroup          : File and Printer Sharing
+Group                 : @FirewallAPI.dll,-28502
+Enabled               : True
+Profile               : Domain, Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : FPS-ICMP4-ERQ-Out
+DisplayName           : File and Printer Sharing (Echo Request - ICMPv4-Out)
+Description           : Echo Request messages are sent as ping requests to other nodes.
+DisplayGroup          : File and Printer Sharing
+Group                 : @FirewallAPI.dll,-28502
+Enabled               : True
+Profile               : Domain, Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : FPS-ICMP6-ERQ-Out
+DisplayName           : File and Printer Sharing (Echo Request - ICMPv6-Out)
+Description           : Echo Request messages are sent as ping requests to other nodes.
+DisplayGroup          : File and Printer Sharing
+Group                 : @FirewallAPI.dll,-28502
+Enabled               : True
+Profile               : Domain, Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
+
+Name                  : FPS-LLMNR-Out-UDP
+DisplayName           : File and Printer Sharing (LLMNR-UDP-Out)
+Description           : Outbound rule for File and Printer Sharing to allow Link Local Multicast Name Resolution. [UDP 
+                        5355]
+DisplayGroup          : File and Printer Sharing
+Group                 : @FirewallAPI.dll,-28502
+Enabled               : True
+Profile               : Domain, Private, Public
+Platform              : {}
+Direction             : Outbound
+Action                : Allow
+EdgeTraversalPolicy   : Block
+LooseSourceMapping    : False
+LocalOnlyMapping      : False
+Owner                 : 
+PrimaryStatus         : OK
+Status                : The rule was parsed successfully from the store. (65536)
+EnforcementStatus     : NotApplicable
+PolicyStoreSource     : PersistentStore
+PolicyStoreSourceType : Local
