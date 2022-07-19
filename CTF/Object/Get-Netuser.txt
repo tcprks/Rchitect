@@ -1,0 +1,226 @@
+Evil-WinRM* PS C:\programdata> Get-Netuser
+
+
+logoncount             : 109
+badpasswordtime        : 10/25/2021 8:15:41 PM
+description            : Built-in account for administering the computer/domain
+distinguishedname      : CN=Administrator,CN=Users,DC=object,DC=local
+objectclass            : {top, person, organizationalPerson, user}
+lastlogontimestamp     : 7/17/2022 5:07:34 PM
+name                   : Administrator
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-500
+samaccountname         : Administrator
+logonhours             : {255, 255, 255, 255...}
+admincount             : 1
+codepage               : 0
+samaccounttype         : USER_OBJECT
+accountexpires         : 12/31/1600 4:00:00 PM
+countrycode            : 0
+whenchanged            : 7/18/2022 12:07:34 AM
+instancetype           : 4
+objectguid             : db5685f4-aee6-4cbc-be31-08997025df10
+lastlogon              : 7/17/2022 5:07:51 PM
+lastlogoff             : 12/31/1600 4:00:00 PM
+objectcategory         : CN=Person,CN=Schema,CN=Configuration,DC=object,DC=local
+dscorepropagationdata  : {10/22/2021 2:35:40 PM, 10/22/2021 1:45:36 PM, 10/22/2021 1:41:29 PM, 10/22/2021 1:35:40 PM...}
+memberof               : {CN=Group Policy Creator Owners,CN=Users,DC=object,DC=local, CN=Domain Admins,CN=Users,DC=object,DC=local, CN=Enterprise Admins,CN=Users,DC=object,DC=local, CN=Schema Admins,CN=Users,DC=object,DC=local...}
+whencreated            : 10/21/2021 4:24:29 AM
+iscriticalsystemobject : True
+badpwdcount            : 0
+cn                     : Administrator
+useraccountcontrol     : NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD
+usncreated             : 8196
+primarygroupid         : 513
+pwdlastset             : 10/22/2021 4:55:27 AM
+usnchanged             : 167993
+
+pwdlastset             : 12/31/1600 4:00:00 PM
+logoncount             : 0
+badpasswordtime        : 12/31/1600 4:00:00 PM
+description            : Built-in account for guest access to the computer/domain
+distinguishedname      : CN=Guest,CN=Users,DC=object,DC=local
+objectclass            : {top, person, organizationalPerson, user}
+name                   : Guest
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-501
+samaccountname         : Guest
+codepage               : 0
+samaccounttype         : USER_OBJECT
+accountexpires         : NEVER
+countrycode            : 0
+whenchanged            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : ec61ff21-35ba-4281-8bf0-c941fb5f757e
+lastlogon              : 12/31/1600 4:00:00 PM
+lastlogoff             : 12/31/1600 4:00:00 PM
+objectcategory         : CN=Person,CN=Schema,CN=Configuration,DC=object,DC=local
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Guests,CN=Builtin,DC=object,DC=local
+whencreated            : 10/21/2021 4:24:29 AM
+badpwdcount            : 0
+cn                     : Guest
+useraccountcontrol     : ACCOUNTDISABLE, PASSWD_NOTREQD, NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD
+usncreated             : 8197
+primarygroupid         : 514
+iscriticalsystemobject : True
+usnchanged             : 8197
+
+logoncount                    : 0
+badpasswordtime               : 12/31/1600 4:00:00 PM
+description                   : Key Distribution Center Service Account
+distinguishedname             : CN=krbtgt,CN=Users,DC=object,DC=local
+objectclass                   : {top, person, organizationalPerson, user}
+name                          : krbtgt
+primarygroupid                : 513
+objectsid                     : S-1-5-21-4088429403-1159899800-2753317549-502
+samaccountname                : krbtgt
+admincount                    : 1
+codepage                      : 0
+samaccounttype                : USER_OBJECT
+showinadvancedviewonly        : True
+accountexpires                : NEVER
+cn                            : krbtgt
+whenchanged                   : 10/21/2021 4:49:59 AM
+instancetype                  : 4
+objectguid                    : f95afbaf-b546-4c4f-a8f0-f45ebc7b3cea
+lastlogon                     : 12/31/1600 4:00:00 PM
+lastlogoff                    : 12/31/1600 4:00:00 PM
+objectcategory                : CN=Person,CN=Schema,CN=Configuration,DC=object,DC=local
+dscorepropagationdata         : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+serviceprincipalname          : kadmin/changepw
+memberof                      : CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local
+whencreated                   : 10/21/2021 4:25:27 AM
+iscriticalsystemobject        : True
+badpwdcount                   : 0
+useraccountcontrol            : ACCOUNTDISABLE, NORMAL_ACCOUNT
+usncreated                    : 12324
+countrycode                   : 0
+pwdlastset                    : 10/20/2021 9:25:27 PM
+msds-supportedencryptiontypes : 0
+usnchanged                    : 16648
+
+logoncount            : 38
+badpasswordtime       : 10/22/2021 7:35:11 AM
+distinguishedname     : CN=Olivar Ava,CN=Users,DC=object,DC=local
+objectclass           : {top, person, organizationalPerson, user}
+displayname           : Olivar Ava
+lastlogontimestamp    : 7/17/2022 5:07:54 PM
+userprincipalname     : oliver@object.local
+name                  : Olivar Ava
+objectsid             : S-1-5-21-4088429403-1159899800-2753317549-1103
+samaccountname        : oliver
+logonhours            : {255, 255, 255, 255...}
+codepage              : 0
+samaccounttype        : USER_OBJECT
+accountexpires        : 12/31/1600 4:00:00 PM
+countrycode           : 0
+whenchanged           : 7/18/2022 12:07:54 AM
+instancetype          : 4
+usncreated            : 16624
+objectguid            : 5413283d-6310-418b-9bd1-472ffc1f932d
+sn                    : Ava
+lastlogoff            : 12/31/1600 4:00:00 PM
+objectcategory        : CN=Person,CN=Schema,CN=Configuration,DC=object,DC=local
+dscorepropagationdata : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+givenname             : Olivar
+memberof              : CN=Remote Management Users,CN=Builtin,DC=object,DC=local
+lastlogon             : 7/17/2022 5:07:54 PM
+badpwdcount           : 0
+cn                    : Olivar Ava
+useraccountcontrol    : NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD
+whencreated           : 10/21/2021 4:48:02 AM
+primarygroupid        : 513
+pwdlastset            : 10/21/2021 2:23:12 AM
+usnchanged            : 168033
+
+userprincipalname : smith@object.local
+countrycode       : 0
+displayname       : Smith William
+sn                : William
+samaccounttype    : USER_OBJECT
+samaccountname    : smith
+objectsid         : S-1-5-21-4088429403-1159899800-2753317549-1104
+objectclass       : {top, person, organizationalPerson, user}
+codepage          : 0
+givenname         : Smith
+cn                : Smith William
+primarygroupid    : 513
+distinguishedname : CN=Smith William,CN=Users,DC=object,DC=local
+name              : Smith William
+objectguid        : 742c4a19-245f-42f0-829a-e30dcd298739
+objectcategory    : CN=Person,CN=Schema,CN=Configuration,DC=object,DC=local
+
+logoncount            : 41
+badpasswordtime       : 10/22/2021 5:54:46 AM
+distinguishedname     : CN=maria garcia,CN=Users,DC=object,DC=local
+objectclass           : {top, person, organizationalPerson, user}
+displayname           : maria garcia
+lastlogontimestamp    : 7/17/2022 5:07:52 PM
+userprincipalname     : maria@object.local
+name                  : maria garcia
+objectsid             : S-1-5-21-4088429403-1159899800-2753317549-1106
+samaccountname        : maria
+codepage              : 0
+samaccounttype        : USER_OBJECT
+accountexpires        : NEVER
+countrycode           : 0
+whenchanged           : 7/18/2022 12:07:52 AM
+instancetype          : 4
+usncreated            : 20645
+objectguid            : 9340fcdd-2f1e-4f89-bafe-e1dcdd5c2b6f
+sn                    : garcia
+lastlogoff            : 12/31/1600 4:00:00 PM
+objectcategory        : CN=Person,CN=Schema,CN=Configuration,DC=object,DC=local
+dscorepropagationdata : {10/22/2021 10:21:48 AM, 10/22/2021 10:10:02 AM, 10/22/2021 10:04:25 AM, 10/22/2021 9:52:43 AM...}
+givenname             : maria
+memberof              : CN=Remote Management Users,CN=Builtin,DC=object,DC=local
+lastlogon             : 7/17/2022 5:07:52 PM
+badpwdcount           : 0
+cn                    : maria garcia
+useraccountcontrol    : NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD
+whencreated           : 10/22/2021 4:16:32 AM
+primarygroupid        : 513
+pwdlastset            : 10/21/2021 9:16:32 PM
+usnchanged            : 168029
+
+
+
+*Evil-WinRM* PS C:\programdata> 
+
+*Evil-WinRM* PS C:\programdata> 
+*Evil-WinRM* PS C:\programdata> Get-Netuser Oliver
+
+
+logoncount            : 38
+badpasswordtime       : 10/22/2021 7:35:11 AM
+distinguishedname     : CN=Olivar Ava,CN=Users,DC=object,DC=local
+objectclass           : {top, person, organizationalPerson, user}
+displayname           : Olivar Ava
+lastlogontimestamp    : 7/17/2022 5:07:54 PM
+userprincipalname     : oliver@object.local
+name                  : Olivar Ava
+objectsid             : S-1-5-21-4088429403-1159899800-2753317549-1103
+samaccountname        : oliver
+logonhours            : {255, 255, 255, 255...}
+codepage              : 0
+samaccounttype        : USER_OBJECT
+accountexpires        : 12/31/1600 4:00:00 PM
+countrycode           : 0
+whenchanged           : 7/18/2022 12:07:54 AM
+instancetype          : 4
+usncreated            : 16624
+objectguid            : 5413283d-6310-418b-9bd1-472ffc1f932d
+sn                    : Ava
+lastlogoff            : 12/31/1600 4:00:00 PM
+objectcategory        : CN=Person,CN=Schema,CN=Configuration,DC=object,DC=local
+dscorepropagationdata : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+givenname             : Olivar
+memberof              : CN=Remote Management Users,CN=Builtin,DC=object,DC=local
+lastlogon             : 7/17/2022 5:07:54 PM
+badpwdcount           : 0
+cn                    : Olivar Ava
+useraccountcontrol    : NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD
+whencreated           : 10/21/2021 4:48:02 AM
+primarygroupid        : 513
+pwdlastset            : 10/21/2021 2:23:12 AM
+usnchanged            : 168033
+
