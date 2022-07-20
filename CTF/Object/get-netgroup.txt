@@ -1,0 +1,917 @@
+
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+admincount             : 1
+iscriticalsystemobject : True
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Administrators
+whenchanged            : 10/22/2021 2:35:40 PM
+objectsid              : S-1-5-32-544
+objectclass            : {top, group}
+cn                     : Administrators
+usnchanged             : 36939
+systemflags            : -1946157056
+name                   : Administrators
+dscorepropagationdata  : {10/22/2021 2:35:40 PM, 10/22/2021 1:46:03 PM, 10/22/2021 1:45:46 PM, 10/21/2021 9:48:46 AM...}
+description            : Administrators have complete and unrestricted access to the computer/domain
+distinguishedname      : CN=Administrators,CN=Builtin,DC=object,DC=local
+member                 : {CN=Domain Admins,CN=Users,DC=object,DC=local, CN=Enterprise Admins,CN=Users,DC=object,DC=local, CN=Administrator,CN=Users,DC=object,DC=local}
+usncreated             : 8199
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 07869640-9eae-4ee7-9230-c974183a3ccc
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+systemflags            : -1946157056
+iscriticalsystemobject : True
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Users
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-32-545
+objectclass            : {top, group}
+cn                     : Users
+usnchanged             : 12381
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Users
+description            : Users are prevented from making accidental or intentional system-wide changes and can run most applications
+distinguishedname      : CN=Users,CN=Builtin,DC=object,DC=local
+member                 : {CN=Domain Users,CN=Users,DC=object,DC=local, CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=object,DC=local, CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=object,DC=local}
+usncreated             : 8202
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 5f5c65da-14b0-4668-b641-5f705b3e08c3
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+systemflags            : -1946157056
+iscriticalsystemobject : True
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Guests
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-32-546
+objectclass            : {top, group}
+cn                     : Guests
+usnchanged             : 12383
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Guests
+description            : Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted
+distinguishedname      : CN=Guests,CN=Builtin,DC=object,DC=local
+member                 : {CN=Domain Guests,CN=Users,DC=object,DC=local, CN=Guest,CN=Users,DC=object,DC=local}
+usncreated             : 8208
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 641e0875-3377-4fe3-ad78-863eaa06b23b
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8211
+admincount             : 1
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Print Operators
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-32-550
+objectclass            : {top, group}
+cn                     : Print Operators
+usnchanged             : 16643
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:49:59 AM, 10/21/2021 4:25:27 AM...}
+name                   : Print Operators
+description            : Members can administer printers installed on domain controllers
+distinguishedname      : CN=Print Operators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+systemflags            : -1946157056
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : efedcecd-d981-45da-87e5-39350b24989b
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8212
+admincount             : 1
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Backup Operators
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-32-551
+objectclass            : {top, group}
+cn                     : Backup Operators
+usnchanged             : 16645
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:49:59 AM, 10/21/2021 4:25:27 AM...}
+name                   : Backup Operators
+description            : Backup Operators can override security restrictions for the sole purpose of backing up or restoring files
+distinguishedname      : CN=Backup Operators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+systemflags            : -1946157056
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : f07175d0-553c-4164-9a45-bd5694036f66
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8213
+admincount             : 1
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Replicator
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-32-552
+objectclass            : {top, group}
+cn                     : Replicator
+usnchanged             : 16647
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:49:59 AM, 10/21/2021 4:25:27 AM...}
+name                   : Replicator
+description            : Supports file replication in a domain
+distinguishedname      : CN=Replicator,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+systemflags            : -1946157056
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 5e4213e9-ddc2-4d31-936e-5102b2b9a91e
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8214
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Remote Desktop Users
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-555
+objectclass            : {top, group}
+cn                     : Remote Desktop Users
+usnchanged             : 8214
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Remote Desktop Users
+description            : Members in this group are granted the right to logon remotely
+distinguishedname      : CN=Remote Desktop Users,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : fbaf7219-4137-46d4-849e-f5307e0143f6
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8215
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Network Configuration Operators
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-556
+objectclass            : {top, group}
+cn                     : Network Configuration Operators
+usnchanged             : 8215
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Network Configuration Operators
+description            : Members in this group can have some administrative privileges to manage configuration of networking features
+distinguishedname      : CN=Network Configuration Operators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 99559fc6-26d8-4ab6-bee3-54cc7ba25e9b
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8216
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Performance Monitor Users
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-558
+objectclass            : {top, group}
+cn                     : Performance Monitor Users
+usnchanged             : 8216
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Performance Monitor Users
+description            : Members of this group can access performance counter data locally and remotely
+distinguishedname      : CN=Performance Monitor Users,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : f1fe9b2c-6b4a-4477-9eca-e8a632d5ea09
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8217
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Performance Log Users
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-559
+objectclass            : {top, group}
+cn                     : Performance Log Users
+usnchanged             : 8217
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Performance Log Users
+description            : Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer
+distinguishedname      : CN=Performance Log Users,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 02af6111-8258-44a9-8797-88582a300c28
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8218
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Distributed COM Users
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-562
+objectclass            : {top, group}
+cn                     : Distributed COM Users
+usnchanged             : 8218
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Distributed COM Users
+description            : Members are allowed to launch, activate and use Distributed COM objects on this machine.
+distinguishedname      : CN=Distributed COM Users,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 1a46e3ca-abe8-4662-82d6-5ac6457c2dba
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8219
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : IIS_IUSRS
+whenchanged            : 10/25/2021 11:15:31 AM
+objectsid              : S-1-5-32-568
+objectclass            : {top, group}
+cn                     : IIS_IUSRS
+usnchanged             : 53278
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : IIS_IUSRS
+description            : Built-in group used by Internet Information Services.
+distinguishedname      : CN=IIS_IUSRS,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : ebcf1358-f8b1-4651-924e-ff3a62916871
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8223
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Cryptographic Operators
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-569
+objectclass            : {top, group}
+cn                     : Cryptographic Operators
+usnchanged             : 8223
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Cryptographic Operators
+description            : Members are authorized to perform cryptographic operations.
+distinguishedname      : CN=Cryptographic Operators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 40b3ed44-5dd2-4f98-b405-c10e425332be
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8224
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Event Log Readers
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-573
+objectclass            : {top, group}
+cn                     : Event Log Readers
+usnchanged             : 8224
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Event Log Readers
+description            : Members of this group can read event logs from local machine
+distinguishedname      : CN=Event Log Readers,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 04a24245-6382-498b-bcc8-8eb36b3d7add
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8225
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Certificate Service DCOM Access
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-574
+objectclass            : {top, group}
+cn                     : Certificate Service DCOM Access
+usnchanged             : 8225
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Certificate Service DCOM Access
+description            : Members of this group are allowed to connect to Certification Authorities in the enterprise
+distinguishedname      : CN=Certificate Service DCOM Access,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : a873623b-da57-4e67-ad1c-af79fbec373b
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8226
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : RDS Remote Access Servers
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-575
+objectclass            : {top, group}
+cn                     : RDS Remote Access Servers
+usnchanged             : 8226
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : RDS Remote Access Servers
+description            : Servers in this group enable users of RemoteApp programs and personal virtual desktops access to these resources. In Internet-facing deployments, these servers are typically deployed in an edge network. This group needs to
+                         be populated on servers running RD Connection Broker. RD Gateway servers and RD Web Access servers used in the deployment need to be in this group.
+distinguishedname      : CN=RDS Remote Access Servers,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 3ed8f7c2-3509-45ed-9be3-359861590310
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8227
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : RDS Endpoint Servers
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-576
+objectclass            : {top, group}
+cn                     : RDS Endpoint Servers
+usnchanged             : 8227
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : RDS Endpoint Servers
+description            : Servers in this group run virtual machines and host sessions where users RemoteApp programs and personal virtual desktops run. This group needs to be populated on servers running RD Connection Broker. RD Session Host
+                         servers and RD Virtualization Host servers used in the deployment need to be in this group.
+distinguishedname      : CN=RDS Endpoint Servers,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : c4220b90-4f3f-4243-869f-0c92670bd6e7
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8228
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : RDS Management Servers
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-577
+objectclass            : {top, group}
+cn                     : RDS Management Servers
+usnchanged             : 8228
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : RDS Management Servers
+description            : Servers in this group can perform routine administrative actions on servers running Remote Desktop Services. This group needs to be populated on all servers in a Remote Desktop Services deployment. The servers running the
+                         RDS Central Management service must be included in this group.
+distinguishedname      : CN=RDS Management Servers,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 6e15f0c8-98bc-4882-9ee5-e8d3bedd96c2
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8229
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Hyper-V Administrators
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-578
+objectclass            : {top, group}
+cn                     : Hyper-V Administrators
+usnchanged             : 8229
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Hyper-V Administrators
+description            : Members of this group have complete and unrestricted access to all features of Hyper-V.
+distinguishedname      : CN=Hyper-V Administrators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : 6c54dd36-76a1-46b1-9f69-888f0358113b
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8230
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Access Control Assistance Operators
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-579
+objectclass            : {top, group}
+cn                     : Access Control Assistance Operators
+usnchanged             : 8230
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Access Control Assistance Operators
+description            : Members of this group can remotely query authorization attributes and permissions for resources on this computer.
+distinguishedname      : CN=Access Control Assistance Operators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : e1cf81c4-3532-4bc5-a800-9c5005f3cd94
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+systemflags            : -1946157056
+iscriticalsystemobject : True
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Remote Management Users
+whenchanged            : 10/22/2021 4:16:57 AM
+objectsid              : S-1-5-32-580
+objectclass            : {top, group}
+cn                     : Remote Management Users
+usnchanged             : 20652
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Remote Management Users
+description            : Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user.
+distinguishedname      : CN=Remote Management Users,CN=Builtin,DC=object,DC=local
+member                 : {CN=maria garcia,CN=Users,DC=object,DC=local, CN=Smith William,CN=Users,DC=object,DC=local, CN=Olivar Ava,CN=Users,DC=object,DC=local}
+usncreated             : 8231
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : a457348b-ca25-4abd-b26b-c3ccf2de6123
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 8232
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Storage Replica Administrators
+whenchanged            : 10/21/2021 4:24:29 AM
+objectsid              : S-1-5-32-582
+objectclass            : {top, group}
+cn                     : Storage Replica Administrators
+usnchanged             : 8232
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Storage Replica Administrators
+description            : Members of this group have complete and unrestricted access to all features of Storage Replica.
+distinguishedname      : CN=Storage Replica Administrators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:24:29 AM
+instancetype           : 4
+objectguid             : ec034cac-4287-4f32-858a-2d3f59fd31a6
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12330
+iscriticalsystemobject : True
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccountname         : Domain Computers
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-515
+objectclass            : {top, group}
+cn                     : Domain Computers
+usnchanged             : 12332
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : Domain Computers
+description            : All workstations and servers joined to the domain
+distinguishedname      : CN=Domain Computers,CN=Users,DC=object,DC=local
+samaccounttype         : GROUP_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 89ff7add-1b89-4f41-8461-6a60481063e8
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12333
+admincount             : 1
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Domain Controllers
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-516
+objectclass            : {top, group}
+cn                     : Domain Controllers
+usnchanged             : 16650
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local
+iscriticalsystemobject : True
+description            : All domain controllers in the domain
+distinguishedname      : CN=Domain Controllers,CN=Users,DC=object,DC=local
+name                   : Domain Controllers
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : db307139-a0be-4c70-bf5a-bf13cd28f599
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : UNIVERSAL_SCOPE, SECURITY
+admincount             : 1
+iscriticalsystemobject : True
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Schema Admins
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-518
+objectclass            : {top, group}
+cn                     : Schema Admins
+usnchanged             : 16635
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local
+description            : Designated administrators of the schema
+distinguishedname      : CN=Schema Admins,CN=Users,DC=object,DC=local
+name                   : Schema Admins
+member                 : CN=Administrator,CN=Users,DC=object,DC=local
+usncreated             : 12336
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 8f073ade-945a-431a-b3f8-a354675bf51b
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : UNIVERSAL_SCOPE, SECURITY
+admincount             : 1
+iscriticalsystemobject : True
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Enterprise Admins
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-519
+objectclass            : {top, group}
+cn                     : Enterprise Admins
+usnchanged             : 16633
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : {CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local, CN=Administrators,CN=Builtin,DC=object,DC=local}
+description            : Designated administrators of the enterprise
+distinguishedname      : CN=Enterprise Admins,CN=Users,DC=object,DC=local
+name                   : Enterprise Admins
+member                 : CN=Administrator,CN=Users,DC=object,DC=local
+usncreated             : 12339
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 7240b47f-5e32-4fc0-ae17-69f6010a57e2
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12342
+grouptype              : DOMAIN_LOCAL_SCOPE, SECURITY
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Cert Publishers
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-517
+objectclass            : {top, group}
+cn                     : Cert Publishers
+usnchanged             : 12344
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local
+iscriticalsystemobject : True
+description            : Members of this group are permitted to publish certificates to the directory
+distinguishedname      : CN=Cert Publishers,CN=Users,DC=object,DC=local
+name                   : Cert Publishers
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 93ecb8e1-17a6-456d-ae26-018e4d681248
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : GLOBAL_SCOPE, SECURITY
+admincount             : 1
+iscriticalsystemobject : True
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Domain Admins
+whenchanged            : 7/20/2022 12:21:34 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-512
+objectclass            : {top, group}
+cn                     : Domain Admins
+usnchanged             : 168060
+dscorepropagationdata  : {7/20/2022 12:06:58 AM, 7/20/2022 1:01:56 AM, 7/20/2022 12:56:53 AM, 7/20/2022 12:51:51 AM...}
+memberof               : {CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local, CN=Administrators,CN=Builtin,DC=object,DC=local}
+description            : Designated administrators of the domain
+distinguishedname      : CN=Domain Admins,CN=Users,DC=object,DC=local
+name                   : Domain Admins
+member                 : CN=Administrator,CN=Users,DC=object,DC=local
+usncreated             : 12345
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 1d7ece39-bdfb-4014-a50d-5b9d5e536324
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12348
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Domain Users
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-513
+objectclass            : {top, group}
+cn                     : Domain Users
+usnchanged             : 12350
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Users,CN=Builtin,DC=object,DC=local
+iscriticalsystemobject : True
+description            : All domain users
+distinguishedname      : CN=Domain Users,CN=Users,DC=object,DC=local
+name                   : Domain Users
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 69af56a2-9042-43e3-8142-5b2be2963d84
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12351
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Domain Guests
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-514
+objectclass            : {top, group}
+cn                     : Domain Guests
+usnchanged             : 12353
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Guests,CN=Builtin,DC=object,DC=local
+iscriticalsystemobject : True
+description            : All domain guests
+distinguishedname      : CN=Domain Guests,CN=Users,DC=object,DC=local
+name                   : Domain Guests
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : dcf87869-f0be-41fb-9054-0184f38d95dc
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : GLOBAL_SCOPE, SECURITY
+iscriticalsystemobject : True
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Group Policy Creator Owners
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-520
+objectclass            : {top, group}
+cn                     : Group Policy Creator Owners
+usnchanged             : 12391
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local
+description            : Members in this group can modify group policy for the domain
+distinguishedname      : CN=Group Policy Creator Owners,CN=Users,DC=object,DC=local
+name                   : Group Policy Creator Owners
+member                 : CN=Administrator,CN=Users,DC=object,DC=local
+usncreated             : 12354
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 936b32e4-ae66-44cc-ac17-b15ebd40d27f
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12357
+iscriticalsystemobject : True
+grouptype              : DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : RAS and IAS Servers
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-553
+objectclass            : {top, group}
+cn                     : RAS and IAS Servers
+usnchanged             : 12359
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : RAS and IAS Servers
+description            : Servers in this group can access remote access properties of users
+distinguishedname      : CN=RAS and IAS Servers,CN=Users,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : b63ff9b6-4c7a-4496-a395-2f17df3c1a37
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12360
+admincount             : 1
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Server Operators
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-32-549
+objectclass            : {top, group}
+cn                     : Server Operators
+usnchanged             : 16640
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:49:59 AM, 10/21/2021 4:25:27 AM...}
+name                   : Server Operators
+description            : Members can administer domain servers
+distinguishedname      : CN=Server Operators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+systemflags            : -1946157056
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : d08a7fca-ab70-435e-9537-655332fa2232
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12363
+admincount             : 1
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Account Operators
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-32-548
+objectclass            : {top, group}
+cn                     : Account Operators
+usnchanged             : 16641
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:49:59 AM, 10/21/2021 4:25:27 AM...}
+name                   : Account Operators
+description            : Members can administer domain user and group accounts
+distinguishedname      : CN=Account Operators,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+systemflags            : -1946157056
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 0197cbcc-263d-49f0-82ff-a4ef9eca3923
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+systemflags            : -1946157056
+iscriticalsystemobject : True
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Pre-Windows 2000 Compatible Access
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-32-554
+objectclass            : {top, group}
+cn                     : Pre-Windows 2000 Compatible Access
+usnchanged             : 12393
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Pre-Windows 2000 Compatible Access
+description            : A backward compatibility group which allows read access on all users and groups in the domain
+distinguishedname      : CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=object,DC=local
+member                 : CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=object,DC=local
+usncreated             : 12366
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 463466f1-f7ca-429b-a725-4967847f6996
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12369
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Incoming Forest Trust Builders
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-32-557
+objectclass            : {top, group}
+cn                     : Incoming Forest Trust Builders
+usnchanged             : 12371
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Incoming Forest Trust Builders
+description            : Members of this group can create incoming, one-way trusts to this forest
+distinguishedname      : CN=Incoming Forest Trust Builders,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 193b2003-dded-4c53-a6b6-9151e892df38
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+systemflags            : -1946157056
+iscriticalsystemobject : True
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Windows Authorization Access Group
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-32-560
+objectclass            : {top, group}
+cn                     : Windows Authorization Access Group
+usnchanged             : 12396
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Windows Authorization Access Group
+description            : Members of this group have access to the computed tokenGroupsGlobalAndUniversal attribute on User objects
+distinguishedname      : CN=Windows Authorization Access Group,CN=Builtin,DC=object,DC=local
+member                 : CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=object,DC=local
+usncreated             : 12372
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : ad173d25-6a6b-4aa0-b463-7051166755b4
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12375
+systemflags            : -1946157056
+iscriticalsystemobject : True
+grouptype              : CREATED_BY_SYSTEM, DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Terminal Server License Servers
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-32-561
+objectclass            : {top, group}
+cn                     : Terminal Server License Servers
+usnchanged             : 12377
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 4:25:27 AM, 1/1/1601 6:16:33 PM}
+name                   : Terminal Server License Servers
+description            : Members of this group can update user accounts in Active Directory with information about license issuance, for the purpose of tracking and reporting TS Per User CAL usage
+distinguishedname      : CN=Terminal Server License Servers,CN=Builtin,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 9b384a6e-4771-45d8-98ed-a77c909afe6d
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12402
+iscriticalsystemobject : True
+grouptype              : DOMAIN_LOCAL_SCOPE, SECURITY
+samaccountname         : Allowed RODC Password Replication Group
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-571
+objectclass            : {top, group}
+cn                     : Allowed RODC Password Replication Group
+usnchanged             : 12404
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : Allowed RODC Password Replication Group
+description            : Members in this group can have their passwords replicated to all read-only domain controllers in the domain
+distinguishedname      : CN=Allowed RODC Password Replication Group,CN=Users,DC=object,DC=local
+samaccounttype         : ALIAS_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 585009f4-5d92-4bc5-8837-c7c692879e2f
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+grouptype              : DOMAIN_LOCAL_SCOPE, SECURITY
+iscriticalsystemobject : True
+samaccounttype         : ALIAS_OBJECT
+samaccountname         : Denied RODC Password Replication Group
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-572
+objectclass            : {top, group}
+cn                     : Denied RODC Password Replication Group
+usnchanged             : 12433
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : Denied RODC Password Replication Group
+description            : Members in this group cannot have their passwords replicated to any read-only domain controllers in the domain
+distinguishedname      : CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local
+member                 : {CN=Read-only Domain Controllers,CN=Users,DC=object,DC=local, CN=Group Policy Creator Owners,CN=Users,DC=object,DC=local, CN=Domain Admins,CN=Users,DC=object,DC=local, CN=Cert Publishers,CN=Users,DC=object,DC=local...}
+usncreated             : 12405
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 87ffc3ec-c01e-4cc9-b412-7d9e79b53227
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12419
+admincount             : 1
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccounttype         : GROUP_OBJECT
+samaccountname         : Read-only Domain Controllers
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-521
+objectclass            : {top, group}
+cn                     : Read-only Domain Controllers
+usnchanged             : 16651
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+memberof               : CN=Denied RODC Password Replication Group,CN=Users,DC=object,DC=local
+iscriticalsystemobject : True
+description            : Members of this group are Read-Only Domain Controllers in the domain
+distinguishedname      : CN=Read-only Domain Controllers,CN=Users,DC=object,DC=local
+name                   : Read-only Domain Controllers
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : a0ebae42-bd68-4da4-9f59-b26f24fb09a9
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12429
+iscriticalsystemobject : True
+grouptype              : UNIVERSAL_SCOPE, SECURITY
+samaccountname         : Enterprise Read-only Domain Controllers
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-498
+objectclass            : {top, group}
+cn                     : Enterprise Read-only Domain Controllers
+usnchanged             : 12431
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : Enterprise Read-only Domain Controllers
+description            : Members of this group are Read-Only Domain Controllers in the enterprise
+distinguishedname      : CN=Enterprise Read-only Domain Controllers,CN=Users,DC=object,DC=local
+samaccounttype         : GROUP_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 16c887aa-a71c-4e9c-9ac3-51aefa48b496
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12440
+iscriticalsystemobject : True
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccountname         : Cloneable Domain Controllers
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-522
+objectclass            : {top, group}
+cn                     : Cloneable Domain Controllers
+usnchanged             : 12442
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : Cloneable Domain Controllers
+description            : Members of this group that are domain controllers may be cloned.
+distinguishedname      : CN=Cloneable Domain Controllers,CN=Users,DC=object,DC=local
+samaccounttype         : GROUP_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 98569312-ee02-434f-b870-0b7f5cb9453a
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12445
+iscriticalsystemobject : True
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccountname         : Protected Users
+whenchanged            : 10/21/2021 4:25:27 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-525
+objectclass            : {top, group}
+cn                     : Protected Users
+usnchanged             : 12447
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : Protected Users
+description            : Members of this group are afforded additional protections against authentication security threats. See http://go.microsoft.com/fwlink/?LinkId=298939 for more information.
+distinguishedname      : CN=Protected Users,CN=Users,DC=object,DC=local
+samaccounttype         : GROUP_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : ef4beb0c-024b-4087-a388-570b98ab50d3
+objectcategory         : CN=Group,CN=Schema,CN=Configuration,DC=object,DC=local
+
+usncreated             : 12450
+admincount             : 1
+iscriticalsystemobject : True
+grouptype              : GLOBAL_SCOPE, SECURITY
+samaccountname         : Key Admins
+whenchanged            : 10/21/2021 4:49:59 AM
+objectsid              : S-1-5-21-4088429403-1159899800-2753317549-526
+objectclass            : {top, group}
+cn                     : Key Admins
+usnchanged             : 16632
+dscorepropagationdata  : {10/21/2021 9:48:46 AM, 10/21/2021 9:42:43 AM, 10/21/2021 9:27:59 AM, 10/21/2021 9:27:20 AM...}
+name                   : Key Admins
+description            : Members of this group can perform administrative actions on key objects within the domain.
+distinguishedname      : CN=Key Admins,CN=Users,DC=object,DC=local
+samaccounttype         : GROUP_OBJECT
+whencreated            : 10/21/2021 4:25:27 AM
+instancetype           : 4
+objectguid             : 7dfc7a45-ca1a-4d25-9dce-
