@@ -1,0 +1,10 @@
+sudo john -w=/usr/share/wordlists/rockyou.txt hashonly.txt 
+[sudo] password for rocky: 
+Using default input encoding: UTF-8
+Loaded 1 password hash (krb5asrep, Kerberos 5 AS-REP etype 17/18/23 [MD4 HMAC-MD5 RC4 / PBKDF2 HMAC-SHA1 AES 256/256 AVX2 8x])
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+s3rvice          (?)
+1g 0:00:00:02 DONE (2022-10-20 21:17) 0.3731g/s 1524Kp/s 1524Kc/s 1524KC/s s4552525..s3r1bu
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
