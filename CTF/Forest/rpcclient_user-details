@@ -1,0 +1,137 @@
+min_password_length: 7
+password_properties: 0x00000000
+rpcclient $> queryuser 0x47e
+        User Name   :   andy
+        Full Name   :   Andy Hislip
+        Home Drive  :
+        Dir Drive   :
+        Profile Path:
+        Logon Script:
+        Description :
+        Workstations:
+        Comment     :
+        Remote Dial :
+        Logon Time               :      Wed, 31 Dec 1969 19:00:00 EST
+        Logoff Time              :      Wed, 31 Dec 1969 19:00:00 EST
+        Kickoff Time             :      Wed, 13 Sep 30828 22:48:05 EDT
+        Password last set Time   :      Sun, 22 Sep 2019 18:44:16 EDT
+        Password can change Time :      Mon, 23 Sep 2019 18:44:16 EDT
+        Password must change Time:      Wed, 13 Sep 30828 22:48:05 EDT
+        unknown_2[0..31]...
+        user_rid :      0x47e
+        group_rid:      0x201
+        acb_info :      0x00000210
+        fields_present: 0x00ffffff
+        logon_divs:     168
+        bad_password_count:     0x00000000
+        logon_count:    0x00000000
+        padding1[0..7]...
+        logon_hrs[0..21]...
+rpcclient $> queryuser 0x47a
+        User Name   :   lucinda
+        Full Name   :   Lucinda Berger
+        Home Drive  :
+        Dir Drive   :
+        Profile Path:
+        Logon Script:
+        Description :
+        Workstations:
+        Comment     :
+        Remote Dial :
+        Logon Time               :      Wed, 31 Dec 1969 19:00:00 EST
+        Logoff Time              :      Wed, 31 Dec 1969 19:00:00 EST
+        Kickoff Time             :      Wed, 13 Sep 30828 22:48:05 EDT
+        Password last set Time   :      Thu, 19 Sep 2019 20:44:13 EDT
+        Password can change Time :      Fri, 20 Sep 2019 20:44:13 EDT
+        Password must change Time:      Wed, 13 Sep 30828 22:48:05 EDT
+        unknown_2[0..31]...
+        user_rid :      0x47a
+        group_rid:      0x201
+        acb_info :      0x00000210
+        fields_present: 0x00ffffff
+        logon_divs:     168
+        bad_password_count:     0x00000000
+        logon_count:    0x00000000
+        padding1[0..7]...
+        logon_hrs[0..21]...
+rpcclient $> queryuser 0x479
+        User Name   :   sebastien
+        Full Name   :   Sebastien Caron
+        Home Drive  :
+        Dir Drive   :
+        Profile Path:
+        Logon Script:
+        Description :
+        Workstations:
+        Comment     :
+        Remote Dial :
+        Logon Time               :      Sun, 22 Sep 2019 18:29:30 EDT
+        Logoff Time              :      Wed, 31 Dec 1969 19:00:00 EST
+        Kickoff Time             :      Wed, 13 Sep 30828 22:48:05 EDT
+        Password last set Time   :      Thu, 19 Sep 2019 20:30:00 EDT
+        Password can change Time :      Fri, 20 Sep 2019 20:30:00 EDT
+        Password must change Time:      Wed, 13 Sep 30828 22:48:05 EDT
+        unknown_2[0..31]...
+        user_rid :      0x479
+        group_rid:      0x201
+        acb_info :      0x00000210
+        fields_present: 0x00ffffff
+        logon_divs:     168
+        bad_password_count:     0x00000000
+        logon_count:    0x00000008
+        padding1[0..7]...
+        logon_hrs[0..21]...
+rpcclient $> queryuser 0x1f6
+        User Name   :   krbtgt
+        Full Name   :
+        Home Drive  :
+        Dir Drive   :
+        Profile Path:
+        Logon Script:
+        Description :   Key Distribution Center Service Account
+        Workstations:
+        Comment     :
+        Remote Dial :
+        Logon Time               :      Wed, 31 Dec 1969 19:00:00 EST
+        Logoff Time              :      Wed, 31 Dec 1969 19:00:00 EST
+        Kickoff Time             :      Wed, 13 Sep 30828 22:48:05 EDT
+        Password last set Time   :      Wed, 18 Sep 2019 06:53:23 EDT
+        Password can change Time :      Thu, 19 Sep 2019 06:53:23 EDT
+        Password must change Time:      Wed, 13 Sep 30828 22:48:05 EDT
+        unknown_2[0..31]...
+        user_rid :      0x1f6
+        group_rid:      0x201
+        acb_info :      0x00000011
+        fields_present: 0x00ffffff
+        logon_divs:     168
+        bad_password_count:     0x00000000
+        logon_count:    0x00000000
+        padding1[0..7]...
+        logon_hrs[0..21]...
+rpcclient $> queryuser 0x47b
+        User Name   :   svc-alfresco
+        Full Name   :   svc-alfresco
+        Home Drive  :
+        Dir Drive   :
+        Profile Path:
+        Logon Script:
+        Description :
+        Workstations:
+        Comment     :
+        Remote Dial :
+        Logon Time               :      Mon, 23 Sep 2019 07:09:48 EDT
+        Logoff Time              :      Wed, 31 Dec 1969 19:00:00 EST
+        Kickoff Time             :      Wed, 31 Dec 1969 19:00:00 EST
+        Password last set Time   :      Thu, 20 Oct 2022 20:27:58 EDT
+        Password can change Time :      Fri, 21 Oct 2022 20:27:58 EDT
+        Password must change Time:      Wed, 13 Sep 30828 22:48:05 EDT
+        unknown_2[0..31]...
+        user_rid :      0x47b
+        group_rid:      0x201
+        acb_info :      0x00010210
+        fields_present: 0x00ffffff
+        logon_divs:     168
+        bad_password_count:     0x00000000
+        logon_count:    0x00000006
+        padding1[0..7]...
+        logon_hrs[0..21]...
